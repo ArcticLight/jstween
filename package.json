@@ -1,6 +1,6 @@
 {
   "name": "jstween",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A simple, powerful, expressive animations library",
   "keywords": ["tween", "animation", "animations", "timeline", "timelines"],
   "main": "build/index.js",
@@ -20,6 +20,15 @@
     "type": "git",
     "url": "git://github.com/ArcticLight/jstween.git"
   },
+  "files": [
+    "build/index.js",
+    "build/index.js.map",
+    "build/index.d.ts",
+    "LICENSE",
+    "EASING-LICENSE",
+    "README.md"
+  ],
+  "typings": "build/index.d.ts",
   "devDependencies": {
     "@types/node": "^6.0.56",
     "babel-preset-env": "^1.1.4",

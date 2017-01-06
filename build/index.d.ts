@@ -8,7 +8,7 @@ export interface TweenTypeRegistration<T> {
 export declare let quiet: boolean;
 export declare function clamp(value: number, min: number, max: number): number;
 export declare function lerp(from: number, to: number, much: number): number;
-declare let Eases: {
+export declare const Eases: {
     "EASING-LICENSE": string;
     "easeInQuad": (x: number) => number;
     "easeOutQuad": (x: number) => number;
@@ -21,7 +21,6 @@ declare let Eases: {
     "easeInQuint": (x: number) => number;
     "easeOutQuint": (x: number) => number;
 };
-export { Eases };
 export declare class Seekable {
     readonly duration: number;
     constructor(duration?: number);
