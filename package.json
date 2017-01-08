@@ -12,7 +12,7 @@
     "prepublish": "gulp && gulp cleandoc && npm run doc",
     "test": "mocha --reporter landing",
     "build": "gulp",
-    "doc": "typedoc --ignoreCompilerErrors --out doc --mode modules --module commonjs --target ES6 --readme ./README.md ."
+    "doc": "typedoc --ignoreCompilerErrors --out docs --mode modules --module commonjs --target ES6 --readme ./README.md ."
   },
   "author": "ArcticLight <arcticlight@arcticlight.me> (https://arcticlight.me)",
   "license": "MIT",
