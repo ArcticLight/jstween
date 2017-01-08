@@ -2,14 +2,20 @@
   "name": "jstween",
   "version": "1.0.2",
   "description": "A simple, powerful, expressive animations library",
-  "keywords": ["tween", "animation", "animations", "timeline", "timelines"],
+  "keywords": [
+    "tween",
+    "animation",
+    "animations",
+    "timeline",
+    "timelines"
+  ],
   "main": "build/index.js",
   "bugs": {
     "url": "https://github.com/ArcticLight/jstween/issues",
     "email": "arcticlight@arcticlight.me"
   },
   "scripts": {
-    "prepublish": "gulp && gulp cleandoc && npm run doc",
+    "prepublish": "gulp && gulp cleandoc && npm run doc && gulp nojekyll",
     "test": "mocha --reporter landing",
     "build": "gulp",
     "doc": "typedoc --ignoreCompilerErrors --out docs --mode modules --module commonjs --target ES6 --readme ./README.md ."

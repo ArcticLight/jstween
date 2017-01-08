@@ -21,7 +21,14 @@ gulp.task("clean", function(cb) {
 })
 
 gulp.task("cleandoc", function(cb) {
-  del.sync(['./doc/**/*']);
+  del.sync("./docs/**/*");
+  del.sync("./docs/.nojekyll");
+  cb();
+})
+
+gulp.task("nojekyll", function(cb) {
+  let fs = require('fs');
+  fs.writeFileSync('./docs/.nojekyll', '');
   cb();
 })
 
