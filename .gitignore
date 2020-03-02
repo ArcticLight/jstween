@@ -3,6 +3,8 @@
 !.babelrc
 !.npmignore
 
+dist/
+
 # Logs
 logs
 *.log
