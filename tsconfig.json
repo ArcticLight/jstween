@@ -1,10 +1,8 @@
 {
-  "files": ["src/index.js"],
   "compilerOptions": {
     "target": "esnext",
     "allowJs": true,
     "checkJs": true,
-    "outFile": "src/index.d.ts",
     "declaration": true,
     "emitDeclarationOnly": true,
     "declarationMap": true,

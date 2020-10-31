@@ -208,6 +208,8 @@ export class CSSVariableTarget extends AnimationTarget {
     /** @private */
     this._variable = variable + rnda();
     this._anchor = anchor;
+    /** @type {CSSVariablesAreAlsoStrings<T>} */
+    this._value = value;
     this.value = value;
   }
 

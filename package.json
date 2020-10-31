@@ -23,7 +23,7 @@
     "email": "arcticlight@arcticlight.me"
   },
   "scripts": {
-    "build": "tsc -p ./tsconfig.json",
+    "build": "tsc -p ./tsconfig-jst.json && tsc -p ./tsconfig-plugins.json",
     "test": "echo \"error: no test specified\"; exit 1",
     "prepublishOnly": "npm run build && npm run test"
   },
