@@ -17,7 +17,7 @@
     ".": "./src/index.js",
     "./plugins/*": "./src/plugins/*.js"
   },
-  "typings": "dist/index.d.ts",
+  "typings": "types/index.d.ts",
   "bugs": {
     "url": "https://github.com/ArcticLight/jstween/issues",
     "email": "arcticlight@arcticlight.me"
